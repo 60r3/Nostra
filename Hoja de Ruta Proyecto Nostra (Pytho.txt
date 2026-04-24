@@ -1,0 +1,53 @@
+Hoja de Ruta: Proyecto Nostra (Python Stack)
+Esta lista organiza el desarrollo desde los cimientos hasta el lanzamiento, priorizando la lógica de datos y la sencillez de uso.
+
+1. Definición y Estructura de Datos (Core)
+Diseño de la Base de Datos: Crear los modelos para Usuarios (Comensales/Hosteleros), Suscripciones, Locales, Reservas y Eventos (Cata Nostra).
+
+Sistema de Roles: Configurar permisos para que el hostelero solo vea sus datos y el comensal su perfil.
+
+Panel de Administración: Configurar la interfaz interna para que tú puedas gestionar locales y usuarios manualmente desde el día 1.
+
+2. Backend y Lógica de Negocio (Python/Django)
+Motor de Reservas: Programar la lógica que permite reservar, cancelar y verificar disponibilidad en tiempo real.
+
+Sistema de Validación QR: Generación de códigos únicos por reserva y lógica de "un solo uso".
+
+Gestión de Catas: Módulo específico para eventos puntuales con control de aforo y venta de tickets individuales.
+
+3. Integración Financiera (Stripe)
+Pasarela de Suscripciones: Conexión con Stripe Billing para cobros mensuales automáticos.
+
+Pagos Únicos: Configuración para la compra de entradas de Cata Nostra.
+
+Lógica de Comisiones: Programar el acumulador del 1% sobre los extras detectados por la IA.
+
+4. Interfaz de Usuario (PWA)
+Portal del Comensal: Búsqueda de locales, gestión de suscripción, visualización de QR y sección de "Subir Ticket".
+
+Portal del Hostelero: Interfaz ultra-simplificada para escanear QRs y ver el resumen de clientes del día.
+
+Diseño Visual: Aplicación de la identidad visual (Mesa Nostra y Cata Nostra) mediante CSS.
+
+5. Módulo de IA y Análisis de Datos
+Procesamiento de Tickets: Integración con API de IA para extraer datos de imágenes (OCR avanzado).
+
+Lógica de Recompensas: Sistema automático que asigna "Nostras" tras validar el ticket.
+
+Panel de Métricas: Creación de informes de consumo, churn rate (bajas) y ROI para hosteleros.
+
+6. Legal y Cumplimiento
+Documentación RGPD: Redacción de términos de uso y política de privacidad (incluyendo la cláusula de cero penalización por tickets ilegibles).
+
+Contratos de Hostelería: Formalización de las condiciones de servicio y la comisión del 1%.
+
+7. Despliegue y Pruebas
+Configuración de Servidor: Preparar el entorno de producción (VPS) y base de datos segura.
+
+Pruebas de Campo: Testeo de escaneo QR en entornos de baja luz/cobertura con locales reales.
+
+Lanzamiento MVP: Apertura controlada para los primeros suscriptores en Palma.
+
+Claro, lo tendré en cuenta. Sin embargo, ahora solo puedo recordar lo que hemos dicho en este chat. Cuando empieces un chat nuevo, este fragmento de información se olvidará.
+
+¿Por qué bloque de tareas te gustaría empezar a profundizar o "darle vueltas" primero?
