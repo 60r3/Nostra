@@ -3,7 +3,7 @@ from .models import Establecimiento, PlanSuscripcion, SuscripcionUsuario, Ticket
 
 @admin.register(Establecimiento)
 class EstablecimientoAdmin(admin.ModelAdmin):
-    list_display = ('nombre', 'dueno', 'esta_activo')
+    list_display = ('nombre', 'direccion', 'dueño')
 
 @admin.register(PlanSuscripcion)
 class PlanSuscripcionAdmin(admin.ModelAdmin):
@@ -34,5 +34,5 @@ class SuscripcionUsuarioAdmin(admin.ModelAdmin):
 
 @admin.register(TicketCanje)
 class TicketCanjeAdmin(admin.ModelAdmin):
-    list_display = ('usuario', 'establecimiento', 'categoria', 'fecha_canje')
-    list_filter = ('categoria', 'establecimiento')
+    list_display = ('usuario', 'establecimiento', 'categoria', 'fecha_reserva', 'estado')
+    list_filter = ('estado', 'categoria', 'establecimiento')
